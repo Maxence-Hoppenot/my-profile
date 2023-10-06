@@ -1,0 +1,97 @@
+/* Colors and fonts*/
+
+head{
+	font-family: roboto, sans-serif;
+}
+
+body {
+    background-color: rgb(0,102,51);
+  color: #0f0101;
+  font-family: Loral, serif;
+}
+
+h1 {
+   color: black;
+   font-family:Helvetica;
+   font-weight: 100;
+}
+h2 {
+	color: rgb(8, 243, 34);
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  font-family: roboto, sans-serif;
+  transform: color 0.3s ease;
+
+}
+a:hover {
+	color:red;
+}
+
+/* Custom design with class (99% of your design) */
+
+@media (max-width: 760px) {
+
+    .containeir{
+        width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
+
+
+
+#logo{
+	height:200px;
+	border-radius: 20px;
+	border: 5px solid green;
+}
+
+div{
+    background: #00994C;
+    padding: 15px;
+    border-radius: 5px;
+    BORDER-BOTTOM-COLOR: black;
+    box-shadow: 0px 1px 6px;
+    margin: 15px;
+
+}
+
+.list-inline {
+
+    list-style: none ;
+    padding-left:  0px ;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+
+}
+
+.list-inline i {
+
+    font-size: 50px;
+    color: black;
+}
+.list-inline i:hover {
+  color: rgb(230, 230, 230);
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+
+
+
+
